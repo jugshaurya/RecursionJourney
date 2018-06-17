@@ -1,0 +1,13 @@
+Basics:
+Intro to recursion 
+Recursion and PMI
+code: Power--> Write a program to find x to the power n (i.e. x^n). Take x and n from the user.
+code: Print Numbers-->Given the code to print number from 1 to n in increasing order recursively.
+code: Number of Digits--> Given the code to find out and return the number of digits present in a number recursively.
+Fibonnaci number
+Recursion on Arrays--> shift arrays by changing arr to arr+1
+code: sum of array  ->Given an array of length N, you need to find and return the sum of all elements of the array.
+code: checkNumber-->Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
+code: First Index of Number-->
+Given an array of length N and an integer x, you need to find and return the first index of integer x present in the array. Return -1 if it is not present in the array.
+First index means, the index of first occurrence of x in the input array.
