@@ -1,23 +1,31 @@
-Basics:
-Intro to recursion 
-Recursion and PMI
-code: Power--> Write a program to find x to the power n (i.e. x^n). Take x and n from the user.
-code: Print Numbers-->Given the code to print number from 1 to n in increasing order recursively.
-code: Number of Digits--> Given the code to find out and return the number of digits present in a number recursively.
-Fibonnaci number
-Recursion on Arrays--> shift arrays by changing arr to arr+1
-code: sum of array  ->Given an array of length N, you need to find and return the sum of all elements of the array.
-code: checkNumber-->Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
-code: First Index of Number-->
+1.)Basics:
+a)Intro to recursion 
+b)Recursion and PMI
+c)code: Power--> Write a program to find x to the power n (i.e. x^n). Take x and n from the user.
+d)code: Print Numbers-->Given the code to print number from 1 to n in increasing order recursively.
+e)code: Number of Digits--> Given the code to find out and return the number of digits present in a number recursively.
+
+2.)Fibonnaci number
+3.)Recursion on Arrays--> shift arrays by changing arr to arr+1
+a)code: sum of array  ->Given an array of length N, you need to find and return the sum of all elements of the array.
+b)code: checkNumber-->Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
+c)code: First Index of Number-->
     Given an array of length N and an integer x, you need to find and return the first index of integer x present in the array. Return -1       if it is not present in the array.
     First index means, the index of first occurrence of x in the input array.
-code: Last Index of Number-->
+d)code: Last Index of Number-->
     Given an array of length N and an integer x, you need to find and return the last index of integer x present in the array. Return -1 if it is not present in the array.
     Last index means - if x is present multiple times in the array, return the index at which x comes last in the array.
     You should start traversing your array from 0, not from (N - 1).
     
-All Indices of Number-->
+e)All Indices of Number-->
     Given an array of length N and an integer x, you need to find all the indexes where x is present in the input array. Save all the indexes in an array (in increasing order).
     Do this recursively. Indexing in the array starts from 0.
     
+4.)recursion on strings--> for getting small string use str.substr(x);
+    a) code: Replace Character Recursively
+Given an input string S and two characters c1 and c2, you need to replace every occurrence of character c1 with character c2 in the given string .
+    b)Remove Duplicates Recursively
+    Given a string S, remove consecutive duplicates from it recursively.
+ c)Merge Sort
+ d)Quick Sort
     
