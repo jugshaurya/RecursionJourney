@@ -1,1 +1,7 @@
+what is Backtracing?
 
+step1: place yourself at start Point.
+step2: explore all the plaths possible from starting point.
+step3: insert your element at current possition (to keep track where are u heading) and move on to smaller problem.
+step4: once u reached base case ,print the solution.
+step5(backtrack step): once u explore all the path from one point ,go back(i.e. backtrack) to your prevo=ious point.
