@@ -21,3 +21,23 @@
 	 f)code:  return keypad  code of a string-->Given an integer n, using phone keypad find out all the possible strings that can be made using digits of input n.  Return empty string for numbers 0 and 1.
 	g)code:  print subsequences of a string
 	h)code:  print keypad of a string-->Given an integer n, using phone keypad find out and print all the possible strings that can be made using digits of input n.  Note : The order of strings are not important. Just print different strings in new lines.
+	i) code: Check AB
+Suppose you have a string made up of only 'a' and 'b'. Write a recursive function that checks if the string was generated using the following rules:
+a. The string begins with an 'a'.
+b. Each 'a' is followed by nothing or an 'a' or "bb".
+c. Each "bb" is followed by nothing or an 'a'.
+If all the rules are followed by the given string, return true otherwise return false.
+j) code: Staircase  ->
+A child is running up a staircase with N steps, and can hop either 1 step, 2 steps or 3 steps at a time. Implement a method to count how many possible ways the child can run up to the stairs. You need to return number of possible ways W.
+k) code:  binary Search (Recursively)
+l)code : Return subset of an array-->  Given an integer array (of length n), find and return all the subsets of input array.  Subsets are of length varying from 0 to n, that contain elements of the array. But the order of elements should remain same as in the input array.  Note : The order of subsets are not important.
+Input format : 
+Line 1 : Size of array		Line 2 : Array elements (separated by space)
+solution points: either  take vector as solution array because we can find out size using v,size()   or if taking array then you need to store number of elements in array at the very first index.
+m) code: print subsets of array
+n) code: return all subsets sum equal to k
+0) code: print all subsets sum equal to k
+p)  code: Return all codes - String
+q)   code: Print all Codes - String
+r)  code: Return Permutations - String
+s)  code:  Print Permutations - String
