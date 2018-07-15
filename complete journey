@@ -1,0 +1,146 @@
+source-->
+
+cppreference.com
+cpplusplus.com
+youtube series  ->https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+
+
+content
+-->comment
+-->ASCII
+--> translation phases (+) http://en.cppreference.com/w/cpp/language/translation_phases
+->Identifiers
+
+
+Permutation and Combination 
+
+1. Q--> B. Tavas and SaDDas(lucky number problem) codeforces problem--> http://codeforces.com/problemset/problem/535/B
+
+
+BITMASKING
+
+1). All operators(& ,| ,^ ,>> ,<< ,~)
+2). Problem--> UNIQUE NUMBER - I (i.e.  find a unique number from an array 		having all digit apearing twice except the single value, 			which is required to be the output).
+3). 2's Complement
+4). Bitwise checking of ODD and EVEN
+5). Calculate the number of set bits in a number --> O(logn) method + 	O(#setBits)( i.e n = n&(n-1) hack ) + Incredible HULK PROBLEM (The 	Planet	 Earth is under a threat from the 	aliens of the outer space and 	the 	Marvel Avengers team is busy fighting against them. 	Meanwhile, The 	Incredible Hulk has to defeat an enemy who is N 	steps above the 	level 	where he is standing (assume it as the 0th 	level). Hulk, because of 	his 	incredible jumping ability can take 	jumps in power of 2. In order to defeat 	the enemy as quickly as 	possible he has to reach the Nth step in	 	minimum moves 	possible. Help Hulk to find the same and contribute in 	saving the	 	Mother Earth.)
+6). Bitwise Swapping Function
+7). Some fun(use of mask):  - a)get ith bit of a number. B)set ith bit. C) clear 	the ith bit.
+8). find subsequences/subsets of a string using bitmasking - O((2^n)).
+9). Problem-->codechef question MARCHA1  https://www.codechef.com/problems/MARCHA1
+10). Problem-->	UNIQUE NUMBERS - II
+	We are given an array containg n numbers. All the numbers are 	present 	twice except for two numbers which are present only 	once. Find the 	unique numbers in linear time without using any 	extra space.
+
+11). Problem-->	UNIQUE NUMBER - III
+	We are given an array containg n numbers. All the numbers are 	present 	thrice except for one number which is only present once. 	Find the 	unique number. 
+12). Problem -->	XOR PROFIT PROBLEM
+	We are given two coins of value x and y. We have to find the 	maximum of 	value of a XOR b where x <= a <= b <= y.(easy peasy)
+
+
+Array's ->1D and 2D
+
+1). Introduction--> create, initialize, input,output
+2). Problem ->(CHEWBACCA AND NUMBER) Help Chewbacca to transform the 	initial number x to the minimum possible positive number(using 9-digit) 	by 	inverting some (possibly, zero) digits. The decimal representation 	of the 	final number shouldn't start with a zero. 
+	Sample Input
+		 4545
+	 Sample Output 
+		4444
+3). HELP RAMU 
+Ramu often uses public transport. The transport in the city is of two types: cabs and rickshaws. The city has n rickshaws and m cabs, the rickshaws are numbered by integers from 1 to n, the cabs are numbered by integers from 1 to m. Public transport is not free.
+
+ There are 4 types of tickets:
+ A ticket for one ride on some rickshaw or cab. It costs c1 ruppees;
+ A ticket for an unlimited number of rides on some rickshaw or on some cab. It costs c2 ruppees;
+ A ticket for an unlimited number of rides on all rickshaws or all cabs. It costs c3 ruppees; 
+A ticket for an unlimited number of rides on all rickshaws and cabs. It costs c4 ruppees. 
+
+Ramu knows for sure the number of rides he is going to make and the transport he is going to use. He asked you for help to find the minimum sum of ruppees he will have to spend on the tickets.
+Input Format:
+Each Test case has 4 lines which are as follows: The first line contains four integers c1,c2,c3,c4 (1≤ c1,c2,c3,c4≤ 1000) — the costs of the tickets. The second line contains two integers n and m (1≤ n,m≤ 1000) — the number of rickshaws and cabs Ramu is going to use. The third line contains n integers ai (0≤ ai≤ 1000) — the number of times Ramu is going to use the rickshaw number i. The fourth line contains m integers bi (0≤ bi≤ 1000) — the number of times Ramu is going to use the cab number i.
+Constraints:
+Output Format
+Print a single number — the minimum sum of ruppes Ramu will have to spend on the tickets.
+Sample Input
+2 1 3 7 19 2 3 2 5 4 4 4 4 3 2 1 1 3 798 1 2 3
+Sample Output
+12 1
+4.) Generate Subarray(continuous part) of an array/string-->used three 	loops-->O(n^3)
+5.) Maximum Subarray Sum-->      
+	   a.) in O(n^3).
+	b.) in O(n^2). using sum-precomputation hence reducing work of 3rd 			nexted loop as in method (a).
+	c.) using Kadane's Algorithm--> O(n). 
+
+6).  TODO  MAXIMUM LENGTH BIOTONIC SUBARRAY
+	You are provided n numbers of array. You need to find the 		maximum length of bitonic subarray. A subarray A[i … j] is biotonic if 	there 	is a k with i <= k <= j such 	that A[i] <= A[i + 1] ... <=	A[k] >= 	A[k + 	1] >= .. 	A[j – 1] > = A[j] i.e subarray is first increasing and 	then 	decreasing or 	entirely increasing or decreasing.	1<=n<=	1000000
+7.)  ROTATE IMAGE (N X N ARRAY)	Given a 2D array of size N x N. Rotate the 	array 90 degrees. without using extra space .->take transpose and 	then mirrror image.
+8.)	Problem - > RainWater Trapping Problem(Google interview).
+9). 	Problem -> Facto Sum  Given N numbers compute the sum of their 	factorial modulo 107(not 10^7), thatis for 3 numbers 3 4 5 output is 43 	(150 % 107).
+10).	TODO   problem ->Maximum Circular Subarray Sum  
+
+NUMBER THEORY(CN +CB)
+1). PigenHole Principle
+2). Problem -> Divisible Subarrays(compute the number of subarray whose  sum is divisible by N).
+
+Binary Search Problem
+
+Recursion
+
+1.)Basics:
+	a)Intro to recursion 
+	b)Recursion and PMI
+	c)code: Power--> Write a program to find x to the power n (i.e. x^n). Take x and n from the user.
+	d)code: Print Numbers-->Given the code to print number from 1 to n in increasing order recursively.
+	e)code: Number of Digits--> Given the code to find out and return the number of digits present in a number recursively.
+
+2.)Fibonnaci number
+3.)Recursion on Arrays--> shift arrays by changing arr to arr+1
+	a)code: sum of array  ->Given an array of length N, you need to find and return the sum of all elements of the array.
+	b)code: checkNumber-->Given an array of length N and an integer x, you need to find if x is present in the array or not. Return true or false.
+	c)code: First Index of Number-->    Given an array of length N and an integer x, you need to find and return the first index of integer x present in the array. Return -1       if it is not present in the array.    First index means, the index of first occurrence of x in the input array.
+	d)code: Last Index of Number-->Given an array of length N and an integer x, you need to find and return the last index of integer x present in the array. Return -1 if it is not present in the array.    Last index means - if x is present multiple times in the array, return the index at which x comes last in the array. You should start traversing your array from 0, not from (N - 1).
+	e)All Indices of Number-->Given an array of length N and an integer x, you need to find all the indexes where x is present in the input array. Save all the indexes in an array (in increasing order).   Do this recursively. Indexing in the array starts from 0.
+4.)Recursion on strings--> for getting small string use str.substr(x);
+    	a) code: Replace Character Recursively-->Given an input string S and two characters c1 and c2, you need to replace every occurrence of character c1 with character c2 in the given string .
+    	b)Remove Duplicates Recursively  Given a string S, remove consecutive duplicates from it recursively.
+ 	c)Merge Sort
+ 	d)Quick Sort
+	e)code:  return subsequences of a string  
+	 f)code:  return keypad  code of a string-->Given an integer n, using phone keypad find out all the possible strings that can be made using digits of input n.  Return empty string for numbers 0 and 1.
+	g)code:  print subsequences of a string
+	h)code:  print keypad of a string-->Given an integer n, using phone keypad find out and print all the possible strings that can be made using digits of input n.  Note : The order of strings are not important. Just print different strings in new lines.
+	i) code: Check AB
+Suppose you have a string made up of only 'a' and 'b'. Write a recursive function that checks if the string was generated using the following rules:
+a. The string begins with an 'a'.
+b. Each 'a' is followed by nothing or an 'a' or "bb".
+c. Each "bb" is followed by nothing or an 'a'.
+If all the rules are followed by the given string, return true otherwise return false.
+j) code: Staircase  ->
+A child is running up a staircase with N steps, and can hop either 1 step, 2 steps or 3 steps at a time. Implement a method to count how many possible ways the child can run up to the stairs. You need to return number of possible ways W.
+k) code:  binary Search (Recursively)
+l)code : Return subset of an array-->  Given an integer array (of length n), find and return all the subsets of input array.  Subsets are of length varying from 0 to n, that contain elements of the array. But the order of elements should remain same as in the input array.  Note : The order of subsets are not important.
+Input format : 
+Line 1 : Size of array		Line 2 : Array elements (separated by space)
+solution points: either  take vector as solution array because we can find out size using v,size()   or if taking array then you need to store number of elements in array at the very first index.
+m) code: print subsets of array
+n) code: return all subsets sum equal to k
+0) code: print all subsets sum equal to k
+p)  code: Return all codes - String
+q)   code: Print all Codes - String
+r)  code: Return Permutations - String
+s)  code:  Print Permutations - String
+
+what is Backtracing?
+
+step1: place yourself at start Point.
+step2: explore all the plaths possible from starting point.
+step3: insert your element at current possition (to keep track where are u heading) and move on to smaller problem.
+step4: once u reached base case ,print the solution.
+step5(backtrack step): once u explore all the path from one point ,go back(i.e. backtrack) to your prevo=ious point.
+
+problem: NQueen
+Problem : Rat in a Maze
+binarySearch Problem :
+	  Agressive Cows, Book Allocation Problem(Read Pages).
+
+
+
