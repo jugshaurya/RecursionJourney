@@ -1,0 +1,56 @@
+WEIRDO/ C++
+⦁	#include<iostream>-->have namespace std-->have cout,cin and
+⦁	endl->I/O stream manipulator-->ﬁrst it inserts the end-of-line character and then it ﬂushes the stream buﬀer to force the text to show up on the console.
+⦁	A compiler is a program that translates code from a programming language into another form which is (more) directly executable for a computer. Using a compiler to translate code is called compilation.
+
+⦁	#if something==true  //code
+ #else //more code
+ #endif
+
+⦁	#ifdef thing_that_you_want_to_know_if_is_defined
+ //code
+ #endif
+⦁	 The type of nullptr is a fundamental type known as std::nullptr_t.
+FILE I/O
+⦁	 Writing to a ﬁle-->
+	 std::ofstream os("foo.txt"); or os.open("foo.txt");
+	if(os.is_open()){ 
+  		os << "Hello World!"; 
+	}
+	Instead of <<, you can also use the output ﬁle stream's member function write():
+	std::ofstream os("foo.txt");
+	 if(os.is_open()){ 
+	   char data[] = "Fooll";
+    	   os.write(data, 3); // Writes 3 characters from data -> "Foo". 
+	 }
+⦁	std::ifstream ifs("foo.txt");  // ifstream: Opens file "foo.txt" for reading only.
+⦁	std::ofstream ofs("foo.txt");  // ofstream: Opens file "foo.txt" for writing only.
+⦁	std::fstream iofs("foo.txt");  // fstream:  Opens file "foo.txt" for reading and writing
+FILE OPENING
+std::ifstream ifs; 
+ifs.open("bar.txt");           // ifstream: Opens file "bar.txt" for reading only.
+std::ofstream ofs;
+ ofs.open("bar.txt");           // ofstream: Opens file "bar.txt" for writing only.
+std::fstream iofs; 
+iofs.open("bar.txt");          // fstream:  Opens file "bar.txt" for reading and writing.
+You should always check if a ﬁle has been opened successfully (even when writing). Failures can include: the ﬁle doesn't exist, ﬁle hasn't the right access rights, ﬁle is already in use, disk errors occurred, drive disconnected ... Checking can be done as follows:
+// Try to read the file 'foo.txt'.
+ std::ifstream ifs("fooo.txt");  // Note the typo, the file can't be opened.
+// Check if the file has been opened successfully.
+ if (!ifs.is_open()) {  
+	  // The file hasn't been opened; take appropriate actions here.  
+  	throw CustomException(ifs, "File could not be opened"); 
+}
+When ﬁle path contains backslashes (for example, on Windows system) you should properly escape them:
+// Open the file 'c:\\folder\\foo.txt' on Windows. 
+std::ifstream ifs("c:\\\\folder\\\\foo.txt");   // using escaped backslashes
+or use raw literal:
+// Open the file 'c:\\folder\\foo.txt' on Windows. 
+	std::ifstream ifs(R"(c:\\folder\\foo.txt)"); // using raw literal
+or use forward slashes instead:
+// Open the file 'c:\\folder\\foo.txt' on Windows. 
+	std::ifstream ifs("c:/folder/foo.txt");
+FILE READING
+	can use is >> , getline(os,std::string s),read (similar to what we did	 while writing to file).
+CLose FIle
+	use object.close();
